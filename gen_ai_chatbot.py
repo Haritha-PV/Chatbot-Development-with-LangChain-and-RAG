@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, render_template
 from gen_ai import get_llm
 
 # Correct path to the data directory
-path = 'C:\\Users\\harit\\OneDrive\\Desktop\\inttrvu.ai\\gen ai chatbot\\data'
+path = 'data'
 
 # Initialize the chatbot by passing the path
 chatbot = get_llm(path)
