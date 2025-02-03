@@ -1,0 +1,8 @@
+Flask
+pandas
+werkzeug
+langchain
+unstructured
+tiktoken
+
+
